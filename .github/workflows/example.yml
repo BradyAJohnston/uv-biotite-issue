@@ -11,8 +11,8 @@ jobs:
             max-parallel: 8
             fail-fast: false
             matrix:
-              m0: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
-              m2: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+              m0: ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
+              m2: ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
               os: [ubuntu-latest, macos-14, windows-latest]
         steps:
             - uses: actions/checkout@v4
