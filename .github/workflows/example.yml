@@ -19,5 +19,6 @@ jobs:
             - uses: astral-sh/setup-uv@v5
             - name: Run Tests "not density"
               run: |
+                uv venv
                 uv pip install -r pyproject.toml
                 uv run quarto render example.qmd
