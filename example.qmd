@@ -1,0 +1,15 @@
+---
+engine: python
+---
+
+## Testing
+
+```{python}
+import molecularnodes as mn
+mn.register()
+```
+
+
+```{python}
+mol = mn.Molecule.fetch("8H1B")
+```
